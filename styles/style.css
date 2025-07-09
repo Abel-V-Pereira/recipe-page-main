@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+
+    --stone100: hsl(30, 54%, 90%);
+    --stone150: hsl(30, 18%, 87%);
+    --stone600: hsl(30, 10%, 34%);
+    --stone900: hsl(24, 5%, 18%);
+
+    --brown800: hsl(14, 45%, 36%);
+
+    --rose800: hsl(332, 51%, 32%);
+    --rose50: hsl(330, 100%, 98%);
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--stone100);
+    color: var(--stone600);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: var(--brown800);
+}
+
+p,
+li {
+    line-height: 1.5rem;
+}
+
+li {
+    padding-inline-start: 1rem;
+    margin-inline-start: 1.5rem;
+    margin-block-start: .5rem;
+}
+
+li::marker {
+    color: var(--brown800);
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+footer {
+    margin-block-start: 6rem;
+}
+
+.container {
+    width: 46rem;
+    margin-block-start: 7.7rem;
+    background-color: var(--white);
+    border-radius: 1.5rem;
+}
+
+.content {
+    text-align: left;
+    margin-block-start: 2.5rem;
+    margin-inline-start: 2.5rem;
+    width: 41rem;
+}
+
+.instructions {
+    border-bottom: 1px solid var(--stone150);
+    border-top: 1px solid var(--stone150);
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+}
+
+.recipe .recipeimg {
+    width: 41rem;
+    border-radius: .7rem;
+}
+
+.recipe h1 {
+    color: var(--stone900);
+    font-size: 2.5rem;
+    margin-block-start: .8rem;
+}
+
+.recipe .preparation {
+    padding: 1.8rem;
+    border-radius: .8rem;
+    margin-block: 1rem;
+    background-color: var(--rose50);
+}
+
+.recipe .preparation h3 {
+    color: var(--rose800);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-block-start: -.4rem;
+}
+
+.recipe .preparation ul {
+    margin-block-start: .9rem;
+}
+
+.recipe .preparation ul li::marker {
+    color: var(--rose800);
+}
+
+.ingredients {
+    list-style-type: square;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    margin-block-start: 2rem;
+    padding-block: 1.7rem;
+}
+
+.nutrition {
+    margin-block-start: 1.3rem;
+}
+
+.nutrition p {
+    margin-block: 1rem;
+}
+
+.nutrition table {
+    display: table;
+    border-collapse: collapse;
+    width: 41rem;
+    margin-block-end: 2rem;
+    line-height: 3rem;
+}
+
+.nutrition table th {
+    padding-inline-start: 2rem;
+    font-weight: 400;
+    width: 21rem;
+}
+
+.nutrition table td {
+    color: var(--brown800);
+    font-weight: 700;
+}
+
+.nutrition tbody > tr:not(:last-child) > th,
+.nutrition tbody > tr:not(:last-child) > td {
+    border-bottom: 1px solid var(--stone150);
+}
+
+
