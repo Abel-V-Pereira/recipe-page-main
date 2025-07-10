@@ -17,10 +17,16 @@
 
     .recipe h1 {
         font-size: 5rem;
+        width: 80vh;
+        margin-inline-start: 5rem;
+        margin-block-start: 3rem;
     }
 
     h2 {
         font-size: 3rem;
+        width: 80vh;
+        margin-inline-start: 5rem;
+        margin-block-start: 1rem;
     }
 
     li::marker {
@@ -49,7 +55,6 @@
         margin-inline: 0;
     }
 
-    h2,
     .recipe p,
     .ingredients,
     .instructions,
@@ -59,12 +64,6 @@
         width: 80vh;
         margin-inline-start: 5rem;
         margin-block-start: 1rem;
-    }
-
-    .recipe h1 {
-        width: 80vh;
-        margin-inline-start: 5rem;
-        margin-block-start: 3rem;
     }
 
     .preparation {
