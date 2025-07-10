@@ -74,11 +74,6 @@ footer {
     width: 41rem;
 }
 
-.instructions {
-    border-bottom: 1px solid var(--stone150);
-    border-top: 1px solid var(--stone150);
-}
-
 .recipe {
     display: flex;
     flex-direction: column;
@@ -128,6 +123,8 @@ footer {
     gap: .7rem;
     margin-block-start: 2rem;
     padding-block: 1.7rem;
+    border-bottom: 1px solid var(--stone150);
+    border-top: 1px solid var(--stone150);
 }
 
 .nutrition {

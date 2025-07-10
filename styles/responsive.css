@@ -58,9 +58,7 @@
     .recipe p,
     .ingredients,
     .instructions,
-    .instructions h2,
-    .nutrition,
-    .nutrition h2 {
+    .nutrition {
         width: 80vh;
         margin-inline-start: 5rem;
         margin-block-start: 1rem;
@@ -79,6 +77,9 @@
     .instructions h2,
     .nutrition h2 {
         margin: 0;
+        width: 80vh;
+        margin-inline-start: 5rem;
+        margin-block-start: 1rem;
     }
 
     .nutrition table {
